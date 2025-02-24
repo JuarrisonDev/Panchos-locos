@@ -1,72 +1,71 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
-
-import { IBenefit } from "@/types"
-
 export const benefits: IBenefit[] = [
-    {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
-        bullets: [
-            {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
-            },
-            {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
-            },
-            {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-    {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
-        bullets: [
-            {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-]
+  {
+    title: "Portafolio Dinámico",
+    description: "Tu dinero crece con la inteligencia de [object Object], adaptándose a tus objetivos.",
+    bullets: [
+      { 
+        title: "Optimización Constante", 
+        description: "Rebalanceo automático para maximizar rendimientos", 
+        icon: <FiPieChart size={26} />
+      },
+      { 
+        title: "Diversificación Inteligente", 
+        description: "Distribución estratégica de tus inversiones", 
+        icon: <FiList size={26} />
+      },
+      { 
+        title: "Reportes Personalizados", 
+        description: "Visualiza el progreso de tu portafolio con claridad", 
+        icon: <FiTrendingUp size={26} />
+      },
+    ],
+    imageSrc: "/images/mockup-1.webp"
+  },
+  {
+    title: "Control Presupuestario",
+    description: "Domina tus finanzas con un presupuesto inteligente y personalizado.",
+    bullets: [
+      { 
+        title: "Categorización Automática", 
+        description: "Identifica tus gastos con precisión", 
+        icon: <FiWallet size={26} />
+      },
+      { 
+        title: "Alertas Personalizadas", 
+        description: "Recibe notificaciones sobre tus límites de gasto", 
+        icon: <FiBell size={26} />
+      },
+      { 
+        title: "Planificación Financiera", 
+        description: "Establece metas y visualiza tu camino hacia el éxito", 
+        icon: <FiCalendar size={26} />
+      },
+    ],
+    imageSrc: "/images/mockup-2.webp"
+  },
+  {
+    title: "Seguridad Inigualable",
+    description: "Tus datos y transacciones están protegidas por la avanzada seguridad de [object Object].",
+    bullets: [
+      { 
+        title: "Criptografía Avanzada", 
+        description: "Cifrado de extremo a extremo para proteger tus datos", 
+        icon: <FiShield size={26} />
+      },
+      { 
+        title: "Verificación de Identidad", 
+        description: "Protección contra el fraude y accesos no autorizados", 
+        icon: <FiUserCheck size={26} />
+      },
+      { 
+        title: "Monitoreo Continuo", 
+        description: "Detección y respuesta inmediata ante actividad sospechosa", 
+        icon: <FiEye size={26} />
+      },
+    ],
+    imageSrc: "/images/mockup-3.webp"
+  }
+];
+
+
+

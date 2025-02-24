@@ -5,12 +5,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #FED835;
-  --secondary: #304fff;
+  --primary: #6699CC;
+  --secondary: #336699;
 
-  --primary-accent: #e5c230;
-  --foreground-accent: #454545;
-  --hero-background: #F3F3F5;
+  --primary-accent: #6699CC;
+  --foreground-accent: #000000;
+  --hero-background: #FFFFFF;
 }
 
 html {
@@ -64,3 +64,7 @@ h6 {
 #testimonials {
   display: none;
 }
+#gallery { display: flex; }
+#faqs { display: flex; }
+#prices { display: flex; }
+#testimonials { display: flex; }

@@ -1,25 +1,36 @@
-import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
-
+```javascript
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+  {
+    question: "¿Es seguro utilizar [nombre de la plataforma]?",
+    answer: "Utilizamos encriptación AES-256 para proteger tus datos y transacciones.  Así puedes tener la tranquilidad de que tu información está segura."
+  },
+  {
+    question: "¿Mis datos están protegidos de accesos no autorizados?",
+    answer: "Implementamos un sistema de autenticación multifactor que requiere verificación adicional para acceder a tu cuenta. Esto previene accesos no autorizados a tu información personal."
+  },
+  {
+    question: "¿Puedo conectar mi cuenta bancaria a [nombre de la plataforma]?",
+    answer: "Sí, puedes conectar tu cuenta bancaria de forma segura a través de API bancarias confiables con encriptación SSL.  Este proceso te permite realizar transacciones fácilmente y de forma segura."
+  },
+  {
+    question: "¿Es fácil usar [nombre de la plataforma]?",
+    answer: "Nuestra plataforma está diseñada con una interfaz intuitiva y fácil de usar, incluso si no tienes experiencia previa. Puedes comenzar a utilizarla rápidamente y gestionar tus finanzas de forma sencilla."
+  },
+  {
+    question: "¿Qué sucede con mis [object Object] si dejo de utilizar [nombre de la plataforma]?",
+    answer: "Puedes descargar tus [object Object] en formato [formato de archivo] en cualquier momento.  Tus datos siempre estarán a tu disposición, incluso si decides dejar de utilizar la plataforma."
+  }
 ];
+```
+
+
+**Consejos adicionales:**
+
+* Reemplaza "[nombre de la plataforma]" y "[object Object]" con la información específica de tu producto o servicio.
+* Adapta las preguntas y respuestas a las características y beneficios específicos de tu plataforma.
+* Utiliza un lenguaje claro, conciso y fácil de entender.
+* Considera incluir ejemplos o casos de uso para ilustrar las respuestas.
+* Asegúrate de que las preguntas y respuestas sean relevantes para tu público objetivo.
+
+
+
